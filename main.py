@@ -1,5 +1,6 @@
 import pandas
 import json
+import re
 
 # deals with input file which have countries and languages
 re_countries_dataframe = pandas.read_csv("required Countries.txt")
