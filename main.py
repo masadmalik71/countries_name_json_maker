@@ -13,13 +13,7 @@ country_lang_code_li = []
 
 for i in range(0, len(countries_and_languages) - 1):
     country_and_language = countries_and_languages[i]
-    if i % 2 == 0:
-        country_lang_code = country_and_language.split(":")
-        country_lang_code = country_lang_code[1]
-        country_lang_code = country_lang_code.split('"')
-        country_lang_code = country_lang_code[0]
-        country_lang_code_li.append(country_lang_code)
-    else:
+    if i % 2 != 0:
         country_and_language = country_and_language.split(" / ")
         country = country_and_language[0]
         language = country_and_language[1].replace("]", '')
@@ -28,11 +22,9 @@ for i in range(0, len(countries_and_languages) - 1):
         countries_r.append(country)
         languages_r.append(language)
 
-
 # deals with input file which have countries code json
 countries_code_dataframe = pandas.read_csv("Country Codes.txt")
 df_re_countries_code_dataframe = pandas.DataFrame(countries_code_dataframe)
-
 countries_code_list = df_re_countries_code_dataframe.country_code.tolist()
 countries_name_list = df_re_countries_code_dataframe.countries.tolist()
 countries_code_list_r = []
@@ -67,5 +59,6 @@ for i in range(len(countries_r) - 1):
         }
         countries_json_li.append(countries_json_dic)
 
+# Saves the json file into system
 with open('data.json', 'w') as f:
     json.dump(countries_json_li, f)
