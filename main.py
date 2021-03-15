@@ -66,6 +66,6 @@ for i in range(len(countries_r) - 1):
             "Hl": languages_codes[language_index]
         }
         countries_json_li.append(countries_json_dic)
-# print(countries_json_li[0])
+
 with open('data.json', 'w') as f:
     json.dump(countries_json_li, f)
