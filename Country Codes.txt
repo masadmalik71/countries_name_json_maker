@@ -1,0 +1,208 @@
+country_code,countries
+put("ad",2020L); //,Andorra
+put("ae",2784L); //,United Arab Emirates
+put("af",2004L); //,Afghanistan
+put("ag",2028L); //,Antigua and Barbuda
+put("al",2008L); //,Albania
+put("am",2051L); //,Armenia
+put("ao",2024L); //,Angola
+put("aq",2010L); //,Antarctica
+put("ar",2032L); //,Argentina
+put("as",2016L); //,American Samoa
+put("at",2040L); //,Austria
+put("au",2036L); //,Australia
+put("az",2031L); //,Azerbaijan
+put("ba",2070L); //,Bosnia and Herzegovina
+put("bb",2052L); //,Barbados
+put("bd",2050L); //,Bangladesh
+put("be",2056L); //,Belgium
+put("bf",2854L); //,Burkina Faso
+put("bg",2100L); //,Bulgaria
+put("bh",2048L); //,Bahrain
+put("bi",2108L); //,Burundi
+put("bj",2204L); //,Benin
+put("bn",2096L); //,Brunei
+put("bo",2068L); //,Bolivia
+put("br",2076L); //,Brazil
+put("bs",2044L); //,The Bahamas
+put("bt",2064L); //,Bhutan
+put("bw",2072L); //,Botswana
+put("by",2112L); //,Belarus
+put("bz",2084L); //,Belize
+put("ca",2124L); //,Canada
+put("cc",2166L); //,Cocos (Keeling) Islands
+put("cd",2180L); //,Democratic Republic of the Congo
+put("cf",2140L); //,Central African Republic
+put("cg",2178L); //,Republic of the Congo
+put("ch",2756L); //,Switzerland
+put("ci",2384L); //,Cote d'Ivoire
+put("ck",2184L); //,Cook Islands
+put("cl",2152L); //,Chile
+put("cm",2120L); //,Cameroon
+put("cn",2156L); //,China
+put("co",2170L); //,Colombia
+put("cr",2188L); //,Costa Rica
+put("cv",2132L); //,Cape Verde
+put("cx",2162L); //,Christmas Island
+put("cy",2196L); //,Cyprus
+put("cz",2203L); //,Czech Republic
+put("de",2276L); //,Germany
+put("dj",2262L); //,Djibouti
+put("dk",2208L); //,Denmark
+put("dm",2212L); //,Dominica
+put("do",2214L); //,Dominican Republic
+put("dz",2012L); //,Algeria
+put("ec",2218L); //,Ecuador
+put("ee",2233L); //,Estonia
+put("eg",2818L); //,Egypt
+put("er",2232L); //,Eritrea
+put("es",2724L); //,Spain
+put("et",2231L); //,Ethiopia
+put("fi",2246L); //,Finland
+put("fj",2242L); //,Fiji
+put("fm",2583L); //,Federated States of Micronesia
+put("fr",2250L); //,France
+put("ga",2266L); //,Gabon
+put("gb",2826L); //,United Kingdom
+put("gd",2308L); //,Grenada
+put("ge",2268L); //,Georgia
+put("gh",2288L); //,Ghana
+put("gm",2270L); //,The Gambia
+put("gn",2324L); //,Guinea
+put("gq",2226L); //,Equatorial Guinea
+put("gr",2300L); //,Greece
+put("gs",2239L); //,South Georgia and the South Sandwich Islands
+put("gt",2320L); //,Guatemala
+put("gu",2316L); //,Guam
+put("gw",2624L); //,Guinea-Bissau
+put("gy",2328L); //,Guyana
+put("hm",2334L); //,Heard Island and McDonald Islands
+put("hn",2340L); //,Honduras
+put("hr",2191L); //,Croatia
+put("ht",2332L); //,Haiti
+put("hu",2348L); //,Hungary
+put("id",2360L); //,Indonesia
+put("ie",2372L); //,Ireland
+put("il",2376L); //,Israel
+put("in",2356L); //,India
+put("iq",2368L); //,Iraq
+put("is",2352L); //,Iceland
+put("it",2380L); //,Italy
+put("jm",2388L); //,Jamaica
+put("jo",2400L); //,Jordan
+put("jp",2392L); //,Japan
+put("ke",2404L); //,Kenya
+put("kg",2417L); //,Kyrgyzstan
+put("kh",2116L); //,Cambodia
+put("ki",2296L); //,Kiribati
+put("km",2174L); //,Comoros
+put("kn",2659L); //,Saint Kitts and Nevis
+put("kr",2410L); //,South Korea
+put("kw",2414L); //,Kuwait
+put("kz",2398L); //,Kazakhstan
+put("la",2418L); //,Laos
+put("lb",2422L); //,Lebanon
+put("lc",2662L); //,Saint Lucia
+put("li",2438L); //,Liechtenstein
+put("lk",2144L); //,Sri Lanka
+put("lr",2430L); //,Liberia
+put("ls",2426L); //,Lesotho
+put("lt",2440L); //,Lithuania
+put("lu",2442L); //,Luxembourg
+put("lv",2428L); //,Latvia
+put("ly",2434L); //,Libya
+put("ma",2504L); //,Morocco
+put("mc",2492L); //,Monaco
+put("md",2498L); //,Moldova
+put("me",2499L); //,Montenegro
+put("mg",2450L); //,Madagascar
+put("mh",2584L); //,Marshall Islands
+put("mk",2807L); //,Macedonia (fyroM)
+put("ml",2466L); //,Mali
+put("mn",2496L); //,Mongolia
+put("mp",2580L); //,Northern Mariana Islands
+put("mr",2478L); //,Mauritania
+put("mt",2470L); //,Malta
+put("mu",2480L); //,Mauritius
+put("mv",2462L); //,Maldives
+put("mw",2454L); //,Malawi
+put("mx",2484L); //,Mexico
+put("my",2458L); //,Malaysia
+put("mz",2508L); //,Mozambique
+put("na",2516L); //,Namibia
+put("nc",2540L); //,New Caledonia
+put("ne",2562L); //,Niger
+put("nf",2574L); //,Norfolk Island
+put("ng",2566L); //,Nigeria
+put("ni",2558L); //,Nicaragua
+put("nl",2528L); //,Netherlands
+put("no",2578L); //,Norway
+put("np",2524L); //,Nepal
+put("nr",2520L); //,Nauru
+put("nu",2570L); //,Niue
+put("nz",2554L); //,New Zealand
+put("om",2512L); //,Oman
+put("pa",2591L); //,Panama
+put("pe",2604L); //,Peru
+put("pf",2258L); //,French Polynesia
+put("pg",2598L); //,Papua New Guinea
+put("ph",2608L); //,Philippines
+put("pk",2586L); //,Pakistan
+put("pl",2616L); //,Poland
+put("pm",2666L); //,Saint Pierre and Miquelon
+put("pn",2612L); //,Pitcairn Islands
+put("pt",2620L); //,Portugal
+put("pw",2585L); //,Palau
+put("py",2600L); //,Paraguay
+put("qa",2634L); //,Qatar
+put("ro",2642L); //,Romania
+put("rs",2688L); //,Serbia
+put("ru",2643L); //,Russia
+put("rw",2646L); //,Rwanda
+put("sa",2682L); //,Saudi Arabia
+put("sb",2090L); //,Solomon Islands
+put("sc",2690L); //,Seychelles
+put("se",2752L); //,Sweden
+put("sg",2702L); //,Singapore
+put("sh",2654L); //,Saint Helena
+put("si",2705L); //,Slovenia
+put("sk",2703L); //,Slovakia
+put("sl",2694L); //,Sierra Leone
+put("sm",2674L); //,San Marino
+put("sn",2686L); //,Senegal
+put("so",2706L); //,Somalia
+put("sr",2740L); //,Suriname
+put("st",2678L); //,Sao Tome and Principe
+put("sv",2222L); //,El Salvador
+put("sz",2748L); //,Swaziland
+put("td",2148L); //,Chad
+put("tf",2260L); //,French Southern and Antarctic Lands
+put("tg",2768L); //,Togo
+put("th",2764L); //,Thailand
+put("tj",2762L); //,Tajikistan
+put("tk",2772L); //,Tokelau
+put("tl",2626L); //,Timor-Leste
+put("tm",2795L); //,Turkmenistan
+put("tn",2788L); //,Tunisia
+put("to",2776L); //,Tonga
+put("tr",2792L); //,Turkey
+put("tt",2780L); //,Trinidad and Tobago
+put("tv",2798L); //,Tuvalu
+put("tz",2834L); //,Tanzania
+put("ua",2804L); //,Ukraine
+put("ug",2800L); //,Uganda
+put("um",2581L); //,United States Minor Outlying Islands
+put("us",2840L); //,United States
+put("uy",2858L); //,Uruguay
+put("uz",2860L); //,Uzbekistan
+put("va",2336L); //,Vatican City
+put("vc",2670L); //,Saint Vincent and the Grenadines
+put("ve",2862L); //,Venezuela
+put("vn",2704L); //,Vietnam
+put("vu",2548L); //,Vanuatu
+put("wf",2876L); //,Wallis and Futuna
+put("ws",2882L); //,Samoa
+put("ye",2887L); //,Yemen
+put("za",2710L); //,South Africa
+put("zm",2894L); //,Zambia
+put("zw",2716L); //,Zimbabwe
