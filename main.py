@@ -43,10 +43,9 @@ CriterionId_list = df_re_languages_dataframe.CriterionId.tolist()
 
 # Main loop
 countries_json_li = []
+countries_json_dic = {}
 for i in range(len(countries_r) - 1):
     if countries_r[i] in countries_name_list and languages_r[i] in languages_names:
-        country_index = countries_name_list.index(countries_r[i])
-        language_index = languages_names.index(languages_r[i])
         countries_json_dic = {
             "CountryID": countries_code_list_r[country_index],
             "Name": countries_name_list[country_index],
@@ -57,7 +56,42 @@ for i in range(len(countries_r) - 1):
             "Image": f"/Images/Flags/{countries_name_list[country_index]}.png",
             "Hl": languages_codes[language_index]
         }
-        countries_json_li.append(countries_json_dic)
+    elif countries_r[i] not in countries_name_list and languages_r[i] in languages_names:
+        language_index = languages_names.index(languages_r[i])
+        countries_json_dic = {
+            "CountryID": "2840",
+            "Name": countries_r[i],
+            "Language": languages_names[language_index],
+            "LanguageID": f"{CriterionId_list[language_index]}",
+            "CountryLanguage": f"{countries_r[i]}/{languages_names[language_index]}",
+            "CCLC": f"{'2840'}/{CriterionId_list[language_index]}",
+            "Image": f"/Images/Flags/{countries_r[i]}.png",
+            "Hl": languages_codes[language_index]
+        }
+    elif languages_r[i] not in languages_names and countries_r[i] in countries_name_list:
+        country_index = countries_name_list.index(countries_r[i])
+        countries_json_dic = {
+            "CountryID": countries_code_list_r[country_index],
+            "Name": countries_name_list[country_index],
+            "Language": languages_r[i],
+            "LanguageID": "1000",
+            "CountryLanguage": f"{countries_name_list[country_index]}/{languages_r[i]}",
+            "CCLC": f"{countries_code_list_r[country_index]}/{'1000'}",
+            "Image": f"/Images/Flags/{countries_name_list[country_index]}.png",
+            "Hl": "Na"
+        }
+    elif countries_r[i] not in countries_name_list and languages_r[i] not in languages_names:
+        countries_json_dic = {
+            "CountryID": "2840",
+            "Name": countries_r[i],
+            "Language": languages_r[i],
+            "LanguageID": "1000",
+            "CountryLanguage": f"{countries_r[i]}/{languages_r[i]}",
+            "CCLC": f"{'2840'}/{'1000'}",
+            "Image": f"/Images/Flags/{countries_r[i]}.png",
+            "Hl": "Na"
+        }
+    countries_json_li.append(countries_json_dic)
 
 # Saves the json file into system
 with open('data.json', 'w') as f:
